@@ -4,7 +4,12 @@ A Codex skill for thinking through an idea, one focused question at a time. It u
 
 ## Install
 
-Clone or download this repository, then copy the `consult` folder, including `SKILL.md` and `agents/`, to `~/.agents/skills/consult` for global use. If that folder already exists, review it before replacing it.
+Install globally using either method. If `~/.agents/skills/consult` already exists, review it before replacing it.
+
+- **Clone:** Clone this repository, then copy the clone's root folder to `~/.agents/skills/consult`.
+- **ZIP:** Download and extract the ZIP, then copy the extracted repository folder (usually `consult-main`) to `~/.agents/skills/consult`.
+
+In both cases, `SKILL.md` and `agents/` must sit directly inside `~/.agents/skills/consult`.
 
 Codex detects skills automatically. Restart Codex if Consult does not appear.
 
